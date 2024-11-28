@@ -1,26 +1,11 @@
-//import react into the bundle
-import React from "react";
-import ReactDOM from "react-dom/client";
+// Importar React y ReactDOM
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Countdown from './component/countdown .jsx';
 
-// include your styles into the webpack bundle
-import "../styles/index.css";
+// Incluir estilos
+import '../styles/index.css';
 
-
-//import your own components
-function SimpleCounter(props){
-    return(
-        <div className="bigCounter">
-            <div className="calendar">
-                <i className="far fa-clock"></i>
-            </div>
-            <div className="cuatro">0</div>
-            <div className="tres">0</div>
-            <div className="dos">0</div>
-            <div className="uno">0</div>
-        </div>
-    );
-}
-
-//render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<SimpleCounter/>);
-
+// Renderizar la aplicación
+const containerApp = ReactDOM.createRoot(document.getElementById('app'));
+containerApp.render(<Countdown />);

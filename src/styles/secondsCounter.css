@@ -1,0 +1,27 @@
+.container {
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 20vh;
+    font-size: 10vh;
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    grid-gap: 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icono,
+.uno,
+.dos,
+.tres,
+.cuatro,
+.cinco,
+.seis {
+    border-radius: 15px;
+    background-color: rgba(81, 81, 81, 0.174);
+    border: 1px solid rgb(40, 39, 39);
+}
